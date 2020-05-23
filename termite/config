@@ -1,0 +1,49 @@
+# file:   /etc/xdg/termite/config
+# author: vanir
+
+[options]
+allow_bold = true
+audible_bell = true
+browser = xdg-open
+clickable_url = true
+cursor_blink = system
+cursor_shape = block
+dynamic_title = true
+filter_unmatched_urls = true
+font = Hack 10
+geometry = 480x280
+icon_name = terminal
+modify_other_keys = false
+mouse_autohide = false
+scroll_on_output = false
+scroll_on_keystroke = true
+scrollback_lines = 15000
+size_hints = false
+search_wrap = true
+urgent_on_bell = true
+highlight = #30343e
+
+[colors]
+#Dracula Theme
+foreground      = #f8f8f2
+foreground_bold = #f8f8f2
+background      = #282a36
+cursor          = #f8f8f2
+
+color0  = #000000
+color1  = #ff5555
+color2  = #50fa7b
+color3  = #f1fa8c
+color4  = #bd93f9
+color5  = #ff79c6
+color6  = #8be9fd
+color7  = #bfbfbf
+
+color8  = #4d4d4d
+color9  = #ff6e67
+color10 = #5af78e
+color11 = #f4f99d
+color12 = #caa9fa
+color13 = #ff92d0
+color14 = #9aedfe
+color15 = #e6e6e6

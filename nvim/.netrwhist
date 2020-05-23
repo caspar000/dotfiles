@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/vanir/dev/mytetris'
+let g:netrw_dirhist_3='/home/vanir/dev'
+let g:netrw_dirhist_2='/home/vanir/.config/polybar'
+let g:netrw_dirhist_1='/home/vanir/.config/i3'
