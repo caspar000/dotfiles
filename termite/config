@@ -1,4 +1,4 @@
-# file:   /etc/xdg/termite/config
+# file:   ~./config/termite/config
 # author: vanir
 
 [options]
@@ -10,7 +10,8 @@ cursor_blink = system
 cursor_shape = block
 dynamic_title = true
 filter_unmatched_urls = true
-font = Hack 10
+# font = Hack 10
+font = Fira Code Retina 14
 geometry = 480x280
 icon_name = terminal
 modify_other_keys = false
@@ -24,26 +25,49 @@ urgent_on_bell = true
 highlight = #30343e
 
 [colors]
-#Dracula Theme
-foreground      = #f8f8f2
-foreground_bold = #f8f8f2
-background      = #282a36
-cursor          = #f8f8f2
 
-color0  = #000000
-color1  = #ff5555
-color2  = #50fa7b
-color3  = #f1fa8c
-color4  = #bd93f9
-color5  = #ff79c6
-color6  = #8be9fd
-color7  = #bfbfbf
+foreground          = #959DCB
+foreground_bold     = #959DCB
+cursor              = #959DCB
+cursor_foreground   = #292D3E
+background          = #292D3E
 
-color8  = #4d4d4d
-color9  = #ff6e67
-color10 = #5af78e
-color11 = #f4f99d
-color12 = #caa9fa
-color13 = #ff92d0
-color14 = #9aedfe
-color15 = #e6e6e6
+# 16 color space
+
+# Black, Gray, Silver, White
+color0  = #292D3E
+color8  = #676E95
+color7  = #959DCB
+color15 = #FFFFFF
+
+# Red
+color1  = #F07178
+color9  = #F07178
+
+# Green
+color2  = #C3E88D
+color10 = #C3E88D
+
+# Yellow
+color3  = #FFCB6B
+color11 = #FFCB6B
+
+# Blue
+color4  = #82AAFF
+color12 = #82AAFF
+
+# Purple
+color5  = #C792EA
+color13 = #C792EA
+
+# Teal
+color6  = #89DDFF
+color14 = #89DDFF
+
+# Extra colors
+color16 = #F78C6C
+color17 = #FF5370
+color18 = #444267
+color19 = #32374D
+color20 = #8796B0
+color21 = #959DCB
