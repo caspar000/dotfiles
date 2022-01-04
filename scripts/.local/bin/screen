@@ -1,0 +1,8 @@
+#! /bin/sh
+output='/home/vanir/Pictures/screens/%Y-%m-%d-%T-screen.png'
+
+case "$1" in
+        *) scrot "$output" --select --line mode=edge || exit;;
+esac
+
+notify-send "Screenshot taken."
