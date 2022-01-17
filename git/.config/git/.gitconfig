@@ -1,0 +1,6 @@
+[user]
+	email = nikolaev2000@protonmail.com
+	name = caspar000
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
