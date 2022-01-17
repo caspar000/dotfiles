@@ -1,0 +1,24 @@
+#+TITLE: ArchRice
+
+* Preview
+[[./archrice.gif]]
+
+* System Info
+| Distro       | arch (btw)   |
+| Shell        | zsh          |
+| Terminal     | kitty        |
+| WM/DE        | bspwm        |
+| Hotkeys      | sxhkd        |
+| Notofication | dunst        |
+| Bar          | polybar      |
+| Compositor   | picom-git    |
+| File Manager | lf           |
+| Menus        | rofi         |
+| Browser      | firefox      |
+| Text Editor  | neovim/emacs |
+
+~ls -a | wc -l~ = ~16~ :^)
+
+* Information
+A simlink of every file is created from the ~~/.dotfiles~ directory
+into the appropriate places with ~stow~.
