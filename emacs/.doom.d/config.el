@@ -23,6 +23,8 @@
 
 ;;(setq doom-font (font-spec :family "Hack" :size 16))
 (setq doom-font (font-spec :family "Iosevka Term" :size 16))
+;;(setq doom-font (font-spec :family "Dejavu Sans Mono" :size 16))
+;;(set-fontset-font t 'georgian "Dejavu Sans Mono")
 
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -65,7 +67,7 @@
 (setq display-line-numbers-type 'relative)
 
 ;; DEFT SETUP
-(setq deft-directory "~/ROOT/documents/notes"
+(setq deft-directory "~/ROOT/Documents/org/notes"
       deft-extensions '("org")
       deft-recursive t)
 
@@ -77,18 +79,18 @@
 (setq org-startup-with-latex-preview t)
 
 ;; ORG-ROAM SETUP
-(setq org-roam-directory "~/ROOT/documents/roam")
+(setq org-roam-directory "~/ROOT/Documents/org/roam")
 (setq org-roam-capture-templates
       '(("d" "default" plain
          "%?"
          :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
          :unnarrowed t)
         ("p" "project" plain
-         (file "~/ROOT/documents/roam/templates/roam_project_template.org")
+         (file "~/ROOT/Documents/org/roam/templates/roam_project_template.org")
          :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n#+filetags: Project")
          :unnarrowed t)
         ("b" "book notes" plain
-         (file "~/ROOT/documents/roam/templates/roam_book_template.org")
+         (file "~/ROOT/Documents/org/roam/templates/roam_book_template.org")
          :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
          :unnarrowed t)
         ))
@@ -188,19 +190,19 @@
 ;; CUSTOM SHORTCUTS
 (map! :leader
       :desc "Toggle writeroom-mode"
-      "t W" #'writeroom-mode)
+      "t w" #'writeroom-mode)
 (map! :leader
       :desc "Show Org Roam UI"
-      "n r G" #'org-roam-ui-mode)
+      "n r g" #'org-roam-ui-mode)
 (map! :leader
       :desc "Add org-roam alias to node"
       "n r A" #'org-roam-alias-add)
 (map! :leader
       :desc "Toggle Org Inline Images"
-      "O i" #'org-toggle-inline-images)
+      "o i" #'org-toggle-inline-images)
 (map! :leader
       :desc "Toggle Org Latex Preview"
-      "O l" #'org-latex-preview)
+      "o l" #'org-latex-preview)
 (map! :leader
       :desc "Org Roam Node Insert Immediate"
       "n r I" #'org-roam-node-insert-immediate)
