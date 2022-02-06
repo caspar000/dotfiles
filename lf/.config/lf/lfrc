@@ -24,9 +24,8 @@ map au unarchive
 map ae execute
 
 # Movement
+map gf cd ~/Desktop
 map gd cd ~/Documents
-map gD cd ~/Downloads
-map gp cd ~/Pictures
+map gm cd ~/Media
 map gc cd ~/.config
 map gs cd ~/.local/bin
-
