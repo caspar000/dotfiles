@@ -7,7 +7,7 @@ Personal config files managed with git and stow
 * System Info
 | Distro       | arch (btw)   |
 | Shell        | zsh          |
-| Terminal     | kitty        |
+| Terminal     | alacritty    |
 | WM/DE        | bspwm        |
 | Hotkeys      | sxhkd        |
 | Notofication | dunst        |
