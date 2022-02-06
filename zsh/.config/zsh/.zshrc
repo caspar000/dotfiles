@@ -95,8 +95,11 @@ compdef _directories md
 # Define aliases.
 alias tree='tree -a -I .git'
 alias vim='nvim'
-alias neofetch='neofetch --source ~/Pictures/ascii'
+alias neofetch='neofetch --source ~/Media/pics/ascii'
 alias tt='tt -notheme -nohighlight -blockcursor -showwpm -bold -oneshot'
+alias emacs='emacs -nw'
+alias doom='emacs --with-profile=default'
+alias emacsfs='emacs --with-profile=efs'
 
 # Add flags to existing aliases.
 alias ls="${aliases[ls]:-ls} -A"
