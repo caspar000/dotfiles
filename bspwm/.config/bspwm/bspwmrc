@@ -3,7 +3,7 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 $HOME/.local/bin/env
 $HOME/.config/polybar/launch.sh
-feh --bg-scale $HOME/Pictures/darkwall2.png --no-fehbg
+feh --bg-scale $HOME/Media/pics/dwall.png --no-fehbg
 picom --experimental-backends -b
 
 bspc monitor -d 1 2 3 4 5 6
@@ -16,3 +16,4 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
 bspc rule -a Emacs state=tiled
+bspc rule -a Zathura state=tiled
